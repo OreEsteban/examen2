@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+	
+:root{
+	--color-negro:#282d33;
+	--color-naranja: #f7b614;
+	--color-titulos:#2a2a32;
+	--color-contenido: #AAA;
+}
+
+body{
+	color:var(--color-contenido);
+	 font-family: "Catamaran", sans-serif;
+}
+
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+
+#hero{
+	background-color: #282932;
+	background-image: url(../img/footer-bg.png);
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+#hero h1{
+	color: var(--color-naranja);
+	font-size: 80px;
+	font-weight: 700;
+	text-align: left;
+}
+
+#hero h2{
+	color: white;
+	font-size: 70px;
+	font-weight: 700;
+	text-align: left;
+}
+
+#hero p{
+	text-align: left;
+	color: white;
+	font-size: 16px;
+}
+
+#hero .btn{
+	background-color: var(--color-naranja);
+	border-radius: 40px;
+	border: solid var(--color-naranja) 0px;
+	padding: 3% 10%;
+}
+
+
+
+#popular-goods .owl-carousel .owl-dots {
+    text-align: center;
+}
+#popular-goods .owl-carousel .owl-dot {
+    height: 13px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+#popular-goods .owl-carousel .owl-dot.active {
+    background-color: #fb397d;
+    border: 0 !important;
+}
+
+
+#sit-home{
+	background-color: var(--color-titulos);
+}
+
+#sit-home .texto{
+	padding: 5% 2% 0% 6%
+}
+
+#sit-home h2{
+	color: white;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+#sit-home h3{
+	color: var(--color-naranja);
+	font-size: 50px;
+	font-weight: 800;
+}
+
+#sit-home p{
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+}
+
+#sit-home .btn{
+	background-color: var(--color-naranja);
+	border-radius: 40px;
+	border: solid var(--color-negro) 0px;
+	padding: 3% 10%;
+	margin-top: 5%;
+}
+
+
+
+
+footer{
+	background-color: #282932;
+	background-image: url(../img/footer-bg.png);
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: #f7b614;
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+
+
+
+#popular-goods h2{
+	text-align: center;
+	font-size: 60px;
+	color: var(--color-negro);
+	font-weight: 700;
+	
+}
+
+#popular-goods .sub{
+	color: var(--color-naranja);
+	text-align: center;
+	font-weight: 800;
+	padding-top: 4%;
+	font-size: 20px;
+}
+
+.team-info{
+
+	text-align: center;
+	width: 80%;
+	background-color: #fff;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 5px;
+
+}
+.team-info h3{
+	color: var(--color-negro);
+	font-size: 20px;
+	font-weight: 700;
+}
+
+
+.owl-carousel .owl-dots {
+    text-align: center;
+}
+.owl-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.owl-carousel .owl-dot.active {
+    background-color: #fb397d;
+    border: 0 !important;
+}
+
+#popular-goods p{
+	color: var(--color-contenido);
+	font-weight: 550;
+	text-align: center;
+}
+
+#popular-goods h4{
+	color: var(--color-negro);
+	font-size: 18px;
+	font-weight: 600;
+	padding-top: 2%;
+	
+}
+
+#popular-goods .btn{
+	background-color: var(--color-naranja);
+	border-radius: 40px;
+	border: solid var(--color-negro) 0px;
+	padding: 3% 10%;
+	margin-top: 5%;
+}
+
+#popular-goods .fa-solid{
+	color: var(--color-naranja);
+}
